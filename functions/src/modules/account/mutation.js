@@ -1,6 +1,7 @@
 const mutations = {
-	postUpdate: async (parent, args) => {
-		return 'posted';
-	}
-}
+  login: async (parent, args) => {
+    console.log(">>>>>>>>>>>>>>>>", parent);
+    return "posted";
+  },
+};
 module.exports = mutations;

@@ -1,0 +1,12 @@
+type AuthPayload {
+  message: String
+  data: AuthData
+}
+
+type AuthData {
+  token: String
+  email: String
+}
+type User {
+  abc: String
+}
